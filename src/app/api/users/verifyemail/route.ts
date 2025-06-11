@@ -1,4 +1,4 @@
-import User from "@/models/odel";
+import User from "@/models/usermodel";
 import { connect } from "@/dbConfig/dbConfig";
 import { NextResponse, NextRequest } from "next/server";
 
