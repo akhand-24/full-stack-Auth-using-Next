@@ -1,6 +1,6 @@
 import { connect } from "@/dbConfig/dbConfig";
 import { NextResponse, NextRequest } from "next/server";
-import User from "@/models/odel";
+import User from "@/models/usermodel";
 import bcrypt from "bcryptjs";
 import { get } from "http";
 import { getInfoFromToken } from "@/helpers/getInfoFromToken";
